@@ -23,7 +23,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<UmsMember> getAllUser() {
 
-        List<UmsMember> umsMembers = userMapper.selectAll();//userMapper.selectAllUser();
+        List<UmsMember> umsMembers = userMapper.selectAll();
 
         return umsMembers;
     }
